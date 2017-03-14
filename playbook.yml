@@ -1,0 +1,6 @@
+# file: playbook.yml
+---
+- name: install docker image update notifier
+  hosts: all
+  roles:
+    - ansible-docker-daemon
